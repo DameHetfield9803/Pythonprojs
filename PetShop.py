@@ -30,7 +30,6 @@ def catidandage():
     for i in range(len(CatMonitor.catid)):
         print({CatMonitor.catid[i] : CatMonitor.catage[i]})
 
-
 newCat()
 catidandname()
 catidandage()
